@@ -8,15 +8,11 @@ function About() {
    return (
     <>
       <Helmet>
-        <title>Ben kimim?</title>
+        <title>About Me - Mehmet Reşit Gül</title>
         <meta
           name="description"
-          content="Ben Mehmet Reşit Gül. 17 yaşında solo girişimci, startup kurucusu ve AI otomasyon sistemleri üzerine çalışan biriyim. İstanbul'da yaşıyorum ve 11. sınıf öğrencisiyim; son üç yıldır sektörde aralıksız staj yaparak gerçek iş tecrübesi edindim.
-"
+          content="17-year-old solo entrepreneur, startup founder, and AI automation developer based in Istanbul. Building AI-powered systems and n8n workflows for e-commerce brands."
         />
-      </Helmet>
-      
-" />
       </Helmet>
 
       <section className="min-h-screen pt-20 sm:pt-32 pb-20 relative z-10 px-4">

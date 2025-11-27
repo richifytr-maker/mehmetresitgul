@@ -32,7 +32,7 @@ function ContactTR() {
                   <p className={`text-xs sm:text-sm transition-colors duration-300 ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>instagram</p>
-                  
+                  <a
                     href="https://www.instagram.com/mehmetresitgul/?hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -51,7 +51,7 @@ function ContactTR() {
                   <p className={`text-xs sm:text-sm transition-colors duration-300 ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>x</p>
-                  
+                  <a
                     href="https://twitter.com/mresitcom"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -68,7 +68,7 @@ function ContactTR() {
                   <p className={`text-xs sm:text-sm transition-colors duration-300 ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>linkedin</p>
-                  
+                  <a
                     href="https://linkedin.com/in/mehmetresitgul"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -85,7 +85,7 @@ function ContactTR() {
                   <p className={`text-xs sm:text-sm transition-colors duration-300 ${
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}>e-posta</p>
-                  
+                  <a
                     href="mailto:mehmetresitgul@outlook.com.tr"
                     className="text-cyan-400 hover:underline text-base sm:text-lg break-all"
                   >
