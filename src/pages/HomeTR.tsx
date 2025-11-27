@@ -1,0 +1,30 @@
+import { Helmet } from 'react-helmet-async';
+import { useTheme } from '../ThemeContext';
+
+function HomeTR() {
+  const { isDark } = useTheme();
+
+  return (
+    <>
+      <Helmet>
+        <title>Mehmet Reşit Gül - AI Otomasyon Geliştiricisi & Startup Kurucusu</title>
+        <meta name="description" content="17 yaşında solo girişimci, startup kurucusu ve AI otomasyon geliştiricisi. E-ticaret markaları için yapay zeka destekli sistemler, n8n otomasyonları ve verimlilik araçları geliştiriyorum." />
+      </Helmet>
+
+      <section className="min-h-screen flex items-center justify-center relative z-10 px-4">
+        <div className="text-center relative z-10">
+          <h2 className={`text-2xl sm:text-3xl md:text-4xl mb-4 font-medium transition-colors duration-300 ${
+            isDark ? 'text-white' : 'text-gray-900'
+          }`}>merhaba, ben mehmet!</h2>
+          <p className={`text-sm sm:text-base mb-4 transition-colors duration-300 ${
+            isDark ? 'text-gray-200' : 'text-gray-700'
+          }`}>
+            17 yaşında bir solo girişimci & AI otomasyon geliştiricisi
+          </p>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default HomeTR;
